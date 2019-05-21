@@ -16,10 +16,8 @@ DigitalOut myled(LED1);
 
 MPPT MPPT1(I1,V1,PWM1,D1); // Create Maximum Power Point Tracker 1
 
-//AnalogOut Duty(PA_4);
 
 int main() {
-    //Duty = 0.5;
     while(1) {
         myled = 1;
 
