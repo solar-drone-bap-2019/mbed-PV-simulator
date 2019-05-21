@@ -18,15 +18,15 @@ int main() {
   while(1) {
     myled = 0;
     
-    // put your main code here, to run repeatedly:
-    
+    // Use for simulating change in Solar Irradiance:
+    /*
     if (Iir >= 0.6) {
-          Iir = 0;
+          Iir = 0.2;
       }
     else {
-          Iir = Iir+0.00001;
+          Iir = Iir+0.000001;
     } 
-    
+    */
 
     Vpv = (1-D)*Vbat;
 
